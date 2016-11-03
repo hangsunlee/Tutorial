@@ -6,6 +6,7 @@
     </head>
     <body>
         <form action="fupload.php" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="maxsize" value="30000">
           <label for="fupload">첨부파일
           <input id="fupload" type="file" name='upload'>
           <input type="submit" value="올리기">
